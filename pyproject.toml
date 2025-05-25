@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aws-template"
+version = "0.1.0"
+description = ""
+authors = ["SerhiiL06 <sergiy06061997@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+boto3 = "^1.38.23"
+pytest = "^8.3.5"
+boto3-stubs = "^1.38.23"
+types-boto3 = {extras = ["ec2", "s3"], version = "^1.38.23"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
